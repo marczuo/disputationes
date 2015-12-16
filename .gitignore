@@ -1,4 +1,8 @@
+_cache
+_site
+site
 dist
+posts
 cabal-dev
 *.o
 *.hi

@@ -1,0 +1,95 @@
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic,700italic,100|Alegreya:400&subset=latin,latin-ext);
+
+body {
+    color: black;
+    font-size: 20px;
+    margin: 0px auto 0px auto;
+    width: 800px;
+	font-family: 'Alegreya Sans', sans-serif;
+	background-color: #fdf6e3;
+	color: #657b83;
+}
+
+body a {
+	text-decoration: none;
+	color: #268bd2;
+}
+
+body a:visited {
+	color: #6c71c4;
+}
+
+body a:hover {
+	color: #d33682;
+}
+
+div#header {
+    border-bottom: 1px solid #586e75;
+    margin-bottom: 20px;
+    padding: 12px 0px 12px 0px;
+}
+
+div#logo a {
+    color: #586e75;
+    float: left;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+}
+
+div#header #navigation {
+    text-align: right;
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+	height: 28px;
+}
+
+div#header #navigation a {
+    color: #657b83;
+    font-size: 24px;
+    font-weight: bold;
+    text-decoration: none;
+    text-transform: uppercase;
+	font-family: 'Alegreya', serif;
+	font-weight: 400;
+	color: #586e75;
+	display: inline-block;
+	padding: 0px 10px;
+}
+
+div#header #navigation a:hover {
+	background: #eee8d5;
+}
+
+div#footer {
+    border-top: solid 1px #586e75;
+    color: #93a1a1;
+    font-size: 16px;
+	margin: 30px 0;
+    padding: 10px 10px 0 0;
+    text-align: right;
+	font-family: 'Alegreya', serif;
+	font-weight: 200;
+}
+
+h1 {
+    font-size: 28px;
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	margin-bottom: -2px;
+}
+
+h2 {
+    font-size: 22px;
+	font-family: 'Alegreya', serif;
+	font-weight: 700;
+	margin-bottom: -2px;
+}
+
+div.info {
+    color: #555;
+    font-size: 18px;
+    font-style: italic;
+}
