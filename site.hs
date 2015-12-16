@@ -3,10 +3,12 @@
 import           Data.Monoid (mappend)
 import           Hakyll
 
-
 --------------------------------------------------------------------------------
+siteConfig :: Configuration
+siteConfig = defaultConfiguration { deployCommand = "bash deploy.sh" }
+
 main :: IO ()
-main = hakyll $ do
+main = hakyllWith siteConfig $ do
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -15,7 +17,7 @@ main = hakyll $ do
         route   idRoute
         compile compressCssCompiler
 
-    match (fromList ["about.rst", "contact.markdown"]) $ do
+    match "about.rst" $ do
         route   $ setExtension "html"
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" defaultContext
@@ -49,7 +51,7 @@ main = hakyll $ do
             posts <- recentFirst =<< loadAll "posts/*"
             let indexCtx =
                     listField "posts" postCtx (return posts) `mappend`
-                    constField "title" "Home"                `mappend`
+                    constField "title" ""                    `mappend`
                     defaultContext
 
             getResourceBody

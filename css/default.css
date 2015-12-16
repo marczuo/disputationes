@@ -1,4 +1,4 @@
-@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic,700italic,100|Alegreya:400&subset=latin,latin-ext);
+@import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic,700italic,100|Alegreya:400,700&subset=latin,latin-ext);
 
 body {
     color: black;
@@ -36,7 +36,7 @@ div#logo a {
     font-weight: bold;
     text-decoration: none;
 	font-family: 'Alegreya', serif;
-	font-weight: 400;
+	font-weight: 700;
 }
 
 div#header #navigation {
@@ -67,11 +67,19 @@ div#footer {
     border-top: solid 1px #586e75;
     color: #93a1a1;
     font-size: 16px;
-	margin: 30px 0;
+	margin: 20px 0 30px 0;
     padding: 10px 10px 0 0;
     text-align: right;
 	font-family: 'Alegreya', serif;
 	font-weight: 200;
+}
+
+div#footer a {
+	color: #657b83;
+}
+
+div#footer a:hover {
+	color: #d33682;
 }
 
 h1 {
@@ -92,4 +100,13 @@ div.info {
     color: #555;
     font-size: 18px;
     font-style: italic;
+}
+
+#homepage-quote {
+	display: block;
+	width: 220px;
+	float: right;
+	font-size: 16px;
+	font-style: italic;
+	font-color: #93a1a1;
 }
