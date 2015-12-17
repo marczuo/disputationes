@@ -4,7 +4,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
     <head>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <title>Lutetianae Disputationes - $title$</title>
+        <title>Lutetianae Disputationes$if(home)$$else$ - $title$$endif$</title>
         <link rel="stylesheet" type="text/css" href="/css/default.css" />
     </head>
     <body>
@@ -13,9 +13,9 @@
                 <a href="/">Lutetianae Disputationes</a>
             </div>
             <div id="navigation">
-                <a href="/">Home</a>
-                <a href="/about.html">About</a>
-                <a href="/archive.html">Archive</a>
+                <a href="/"$if(home)$ class="current-page"$endif$>Home</a>
+                <a href="/about.html"$if(about)$ class="current-page"$endif$>About</a>
+                <a href="/archive.html"$if(archive)$ class="current-page"$endif$>Archive</a>
             </div>
         </div>
 
@@ -31,7 +31,7 @@
             Generated with
             <a href="http://jaspervdj.be/hakyll">Hakyll</a>
 			using the <a href="http://ethanschoonover.com/solarized">Solarized</a> color scheme<br />
-			Copyright 2015 Lutetianae Disputationes ·
+			Copyright 2015 Marc Zuo ·
 			<a href="https://github.com/marczuo/disputationes">View source code on Github</a>
         </div>
     </body>

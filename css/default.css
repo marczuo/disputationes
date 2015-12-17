@@ -32,7 +32,7 @@ div#header {
 div#logo a {
     color: #586e75;
     float: left;
-    font-size: 24px;
+    font-size: 28px;
     font-weight: bold;
     text-decoration: none;
 	font-family: 'Alegreya', serif;
@@ -41,6 +41,7 @@ div#logo a {
 
 div#header #navigation {
     text-align: right;
+	margin-top: 5px;
 	font-family: 'Alegreya', serif;
 	font-weight: 400;
 	height: 28px;
@@ -48,15 +49,19 @@ div#header #navigation {
 
 div#header #navigation a {
     color: #657b83;
-    font-size: 24px;
-    font-weight: bold;
+    font-size: 20px;
+    font-weight: 400;
     text-decoration: none;
-    text-transform: uppercase;
+	text-transform: uppercase;
 	font-family: 'Alegreya', serif;
 	font-weight: 400;
 	color: #586e75;
 	display: inline-block;
-	padding: 0px 10px;
+	padding: 0 10px;
+}
+
+div#header #navigation a.current-page {
+	font-weight: 700;
 }
 
 div#header #navigation a:hover {
