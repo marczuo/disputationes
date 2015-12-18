@@ -30,7 +30,7 @@ div#header {
 }
 
 div#logo a {
-    color: #586e75;
+    color: #cb4b16;
     float: left;
     font-size: 28px;
     font-weight: bold;
@@ -48,7 +48,6 @@ div#header #navigation {
 }
 
 div#header #navigation a {
-    color: #657b83;
     font-size: 20px;
     font-weight: 400;
     text-decoration: none;
@@ -62,6 +61,7 @@ div#header #navigation a {
 
 div#header #navigation a.current-page {
 	font-weight: 700;
+	color: #cb4b16;
 }
 
 div#header #navigation a:hover {
@@ -92,6 +92,7 @@ h1 {
 	font-family: 'Alegreya', serif;
 	font-weight: 700;
 	margin-bottom: -2px;
+	color: #cb4b16;
 }
 
 h2 {
@@ -99,6 +100,7 @@ h2 {
 	font-family: 'Alegreya', serif;
 	font-weight: 700;
 	margin-bottom: -2px;
+	color: #cb4b16;
 }
 
 div.info {
@@ -121,6 +123,16 @@ div#comment {
 	font-size: 80%;
 	font-color: #93a1a1;
 	font-style: italic;
+}
+
+::selection {
+	color: #fdf6e3;
+	background-color: #6c71c4;
+}
+
+::-moz-selection {
+	color: #fdf6e3;
+	background-color: #6c71c4;
 }
 
 img#header-image {
