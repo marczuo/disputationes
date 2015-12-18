@@ -4,7 +4,7 @@ body {
     color: black;
     font-size: 20px;
     margin: 0px auto 0px auto;
-    width: 800px;
+    max-width: 700px;
 	font-family: 'Alegreya Sans', sans-serif;
 	background-color: #fdf6e3;
 	color: #657b83;
@@ -107,11 +107,18 @@ div.info {
     font-style: italic;
 }
 
-#homepage-quote {
+div#homepage-quote {
 	display: block;
-	width: 220px;
+	width: 180px;
 	float: right;
-	font-size: 16px;
+	margin-left: 20px;
+	font-size: 80%;
 	font-style: italic;
 	font-color: #93a1a1;
+}
+
+div.comment {
+	font-size: 80%;
+	font-color: #93a1a1;
+	font-style: italic;
 }
