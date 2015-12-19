@@ -2,8 +2,6 @@ _cache
 _site
 site
 dist
-images
-posts
 cabal-dev
 *.o
 *.hi
