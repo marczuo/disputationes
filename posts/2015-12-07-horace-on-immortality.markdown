@@ -9,7 +9,7 @@ _Translated from [Odes 2.20](https://books.google.fr/books?id=V5ydX0CFwgYC&pg=PA
 by Horace_
 
 Wings uncommon and splendid  
-shall bore me, two-formed poet, through flowing ether,  
+shall bear me, two-formed poet, through flowing ether,  
 nor shall I linger long on earth  
 but from the cities I shall depart, far above vulgar envy.  
   
