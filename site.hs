@@ -2,6 +2,13 @@
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
 import           Hakyll
+import           Data.List
+import           Control.Arrow
+
+import           Text.Blaze.Html                 (toHtml, toValue, (!))
+import           Text.Blaze.Html.Renderer.String (renderHtml)
+import qualified Text.Blaze.Html5                as H
+import qualified Text.Blaze.Html5.Attributes     as A
 
 --------------------------------------------------------------------------------
 siteConfig :: Configuration
@@ -9,6 +16,8 @@ siteConfig = defaultConfiguration { deployCommand = "bash deploy.sh" }
 
 main :: IO ()
 main = hakyllWith siteConfig $ do
+    tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
+
     match "images/*" $ do
         route   idRoute
         compile copyFileCompiler
@@ -24,7 +33,7 @@ main = hakyllWith siteConfig $ do
             >>= relativizeUrls
 
     match "posts/*" $ do
-        route $ setExtension "html"
+        route   $ setExtension "html" 
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/post.html"    postCtx
             >>= loadAndApplyTemplate "templates/default.html" postCtx
@@ -45,6 +54,20 @@ main = hakyllWith siteConfig $ do
                 >>= loadAndApplyTemplate "templates/default.html" archiveCtx
                 >>= relativizeUrls
 
+    create ["tags.html"] $ do
+        route idRoute
+        compile $ do
+            tagCloud <- renderTagCloud 80 300 tags 
+            let tagsCtx =
+                    constField "tagcloud" tagCloud           `mappend`
+                    constField "title" "Tags"                `mappend`
+                    constField "tagspage" ""                     `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/tags.html"    tagsCtx
+                >>= loadAndApplyTemplate "templates/default.html" tagsCtx
+                >>= relativizeUrls
 
     match "index.html" $ do
         route idRoute
@@ -63,14 +86,40 @@ main = hakyllWith siteConfig $ do
 
     match "templates/*" $ compile templateCompiler
 
+    tagsRules tags $ \tag pattern -> do
+        route idRoute
+        compile $ do
+            posts <- recentFirst =<< loadAll pattern
+            let tagPageCtx =
+                    listField "posts" postCtx (return posts)      `mappend`
+                    constField "title" ("Filed under: " ++ tag)   `mappend`
+                    defaultContext
+
+            makeItem ""
+                >>= loadAndApplyTemplate "templates/tag.html"     tagPageCtx
+                >>= loadAndApplyTemplate "templates/default.html" tagPageCtx
+                >>= relativizeUrls
 
 --------------------------------------------------------------------------------
 postCtx, aboutCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     constField "post" ""         `mappend`
+    field "taglist" (\item -> getPageTags (itemIdentifier item)
+                              >>= renderTagListNoCount)
+                                 `mappend`
     defaultContext
 
 aboutCtx =
     constField "about" ""        `mappend`
-    defaultContext
+    defaultContext 
+
+--------------------------------------------------------------------------------
+getPageTags :: Identifier -> Compiler Tags
+getPageTags identifier = buildTags (fromList [identifier]) (fromCapture "tags/*.html")
+
+renderTagListNoCount :: Tags -> Compiler (String)
+renderTagListNoCount = renderTags makeLink (intercalate ", ")
+  where
+    makeLink tag url _ _ _ = renderHtml $
+        H.a ! A.href (toValue url) $ toHtml tag

@@ -1,6 +1,7 @@
 ---
 title: The Old Master of the Desert
 author: Marc Zuo
+tags: fiction, history
 ---
 _The following note, which the author discovered as an inexplicable addition by an unknown scribe
 in an old printed book of the works of Cornelius Nepos, is written in a combination of Greek and
