@@ -10,4 +10,7 @@ title: About
 
 Under construction…
 
+You may also be interested in the collection of my original Latin poetry, [Ineptiae
+Marci](http://ineptiae.tumblr.com).
+
 [Contact me by email](mailto:marc@disputation.es) ([PGP key here](https://sks-keyservers.net/pks/lookup?op=get&search=0xCD712062CF2A5857)).
