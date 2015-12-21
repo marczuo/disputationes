@@ -3,7 +3,7 @@ title: Carmen Cotidianum: Horace on Immortality
 author: Marc Zuo
 headimage: ../images/2015-12-07-horace-on-immortality.jpg
 headimagetitle: A flying swan
-tags: poetry, latin
+tags: poetry, latin, translation
 ---
 
 _Translated from [Odes 2.20](https://books.google.fr/books?id=V5ydX0CFwgYC&pg=PA308&lpg=PA308&source=bl&ots=hFVgv_Z-7R&sig=0YppeCTYIHw2BSNHdEjR_H-CVKw&hl=fr&sa=X&ved=0ahUKEwj02d2WxeHJAhVM0hoKHYKlDSI4ChDoAQgiMAE#v=onepage&q=Non%20usitata%20nec%20tenui%20ferar&f=false)
