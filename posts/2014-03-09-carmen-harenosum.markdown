@@ -83,3 +83,5 @@ Leave this cursed place; leave this golden temple
 To the gods who fashioned it! We must live on.  
 And when at last the breath of life should fail us,  
 May we then find peace, under this sea of gold.  
+
+<p class="signature">Berkeley, March 2014</p>

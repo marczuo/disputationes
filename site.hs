@@ -26,8 +26,12 @@ main = hakyllWith siteConfig $ do
         route   idRoute
         compile compressCssCompiler
 
-    match "about.markdown" $ do
-        route   $ setExtension "html"
+    match "about.markdown" $ do 
+        let aboutCtx =
+                constField "about" ""                        `mappend`
+                defaultContext
+
+        route   $ setExtension "html" 
         compile $ pandocCompiler
             >>= loadAndApplyTemplate "templates/default.html" aboutCtx
             >>= relativizeUrls
@@ -61,7 +65,7 @@ main = hakyllWith siteConfig $ do
             let tagsCtx =
                     constField "tagcloud" tagCloud           `mappend`
                     constField "title" "Tags"                `mappend`
-                    constField "tagspage" ""                     `mappend`
+                    constField "tagspage" ""                 `mappend`
                     defaultContext
 
             makeItem ""
@@ -101,7 +105,7 @@ main = hakyllWith siteConfig $ do
                 >>= relativizeUrls
 
 --------------------------------------------------------------------------------
-postCtx, aboutCtx :: Context String
+postCtx :: Context String
 postCtx =
     dateField "date" "%B %e, %Y" `mappend`
     constField "post" ""         `mappend`
@@ -110,16 +114,11 @@ postCtx =
                                  `mappend`
     defaultContext
 
-aboutCtx =
-    constField "about" ""        `mappend`
-    defaultContext 
-
 --------------------------------------------------------------------------------
 getPageTags :: Identifier -> Compiler Tags
 getPageTags identifier = buildTags (fromList [identifier]) (fromCapture "tags/*.html")
 
 renderTagListNoCount :: Tags -> Compiler (String)
 renderTagListNoCount = renderTags makeLink (intercalate ", ")
-  where
-    makeLink tag url _ _ _ = renderHtml $
-        H.a ! A.href (toValue url) $ toHtml tag
+  where makeLink tag url _ _ _ = renderHtml $
+                                   H.a ! A.href (toValue url) $ toHtml tag

@@ -33,7 +33,6 @@ div#logo a {
     color: #cb4b16;
     float: left;
     font-size: 28px;
-    font-weight: bold;
     text-decoration: none;
 	font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif;
 	font-weight: 700;
@@ -49,7 +48,6 @@ div#header #navigation {
 
 div#header #navigation a {
     font-size: 20px;
-    font-weight: 400;
     text-decoration: none;
 	text-transform: uppercase;
 	font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif;
@@ -61,6 +59,7 @@ div#header #navigation a {
 
 div#header #navigation a.current-page {
 	font-weight: 700;
+    font-weight: bold;
 	color: #cb4b16;
 }
 
@@ -103,6 +102,20 @@ h2 {
 	color: #cb4b16;
 }
 
+h3 {
+    font-size: 100%;
+	font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif;
+	color: #cb4b16;
+	line-height: 0.5;
+}
+
+p.signature {
+	text-align: right;
+	font-size: 90%;
+	color: #657b83;
+	font-style: italic;
+}
+
 div.info {
     color: #657b83;
     font-size: 80%;
@@ -124,7 +137,12 @@ div#homepage-quote {
 	margin-left: 20px;
 	font-size: 80%;
 	font-style: italic;
-	font-color: #93a1a1;
+}
+
+div#homepage-quote a,
+div#homepage-quote a:visited,
+div#homepage-quote a:hover { 
+	color: #93a1a1;
 }
 
 div#comment {

@@ -1,0 +1,35 @@
+div.theatre-play-character {
+	float: left;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	color: #cb4b16;
+	font-weight: 700;
+}
+
+div.theatre-play p.theatre-play-didascalia {
+	font-size: 90%;
+	font-style: italic;
+	margin-left: 0;
+} 
+
+p.curtains {
+	margin-top: -5px;
+	text-transform: lowercase;
+	font-variant: small-caps;
+	font-size: 120%;
+    font-style: italic;
+	text-align: center;
+	letter-spacing: 5px;
+	color: #cb4b16;
+}
+
+div.theatre-play p {
+	margin-left: 75px;
+}
+
+p.dramatis-personae {
+	margin-top: -5px;
+	line-height: 1.5;
+	font-style: italic;
+	font-size: 90%;
+} 

@@ -1,7 +1,7 @@
 ---
 title: The Old Master of the Desert
 author: Marc Zuo
-tags: fiction, history
+tags: fiction, history, philosophy
 ---
 _The following note, which the author discovered as an inexplicable addition by an unknown scribe
 in an old printed book of the works of Cornelius Nepos, is written in a combination of Greek and
@@ -465,3 +465,5 @@ shall not speak again; may the Delphian Apollo bless both you and me, and perhap
 of this Carfulenus as well, who shall hopefully find peace in the underworld at long last.
 
 Farewell.
+
+<p class="signature">Berkeley, April 2014</p>
