@@ -86,26 +86,26 @@ div#footer a:hover {
 	color: #d33682;
 }
 
+h1, h2, h3 {
+	font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif;
+	color: #cb4b16; 
+}
+
+h1, h2 { 
+	margin-bottom: -2px;
+	font-weight: 700;
+}
+
 h1 {
     font-size: 140%;
-	font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif;
-	font-weight: 700;
-	margin-bottom: -2px;
-	color: #cb4b16;
 }
 
 h2 {
     font-size: 120%;
-	font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif;
-	font-weight: 700;
-	margin-bottom: -2px;
-	color: #cb4b16;
 }
 
 h3 {
     font-size: 100%;
-	font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif;
-	color: #cb4b16;
 	line-height: 0.5;
 }
 
@@ -151,12 +151,7 @@ div#comment {
 	font-style: italic;
 }
 
-::selection {
-	color: #fdf6e3;
-	background-color: #6c71c4;
-}
-
-::-moz-selection {
+::selection, ::-moz-selection {
 	color: #fdf6e3;
 	background-color: #6c71c4;
 }

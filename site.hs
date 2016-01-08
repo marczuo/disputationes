@@ -43,6 +43,13 @@ main = hakyllWith siteConfig $ do
             >>= loadAndApplyTemplate "templates/default.html" postCtx
             >>= relativizeUrls
 
+    match "drafts/*" $ do
+        route   $ setExtension "html" 
+        compile $ pandocCompiler
+            >>= loadAndApplyTemplate "templates/post.html"    postCtx
+            >>= loadAndApplyTemplate "templates/default.html" postCtx
+            >>= relativizeUrls
+
     create ["archive.html"] $ do
         route idRoute
         compile $ do
@@ -107,7 +114,7 @@ main = hakyllWith siteConfig $ do
 --------------------------------------------------------------------------------
 postCtx :: Context String
 postCtx =
-    dateField "date" "%B %e, %Y" `mappend`
+    dateField "date" "%e %B %Y"  `mappend`
     constField "post" ""         `mappend`
     field "taglist" (\item -> getPageTags (itemIdentifier item)
                               >>= renderTagListNoCount)
