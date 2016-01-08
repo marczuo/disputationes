@@ -10,6 +10,8 @@ title: About
 
 Under construction…
 
+##Other Places to Find Me
+
 You may be interested in my photos on [Flickr](https://www.flickr.com/photos/zuocius/).
 
 You may also be interested in the collection of my original Latin poetry, [Ineptiae
