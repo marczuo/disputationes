@@ -160,6 +160,18 @@ img#header-image {
     width: 700px;
 }
 
+div.figure-about {
+	float: right;
+	padding: 20px 0px 0px 20px;
+}
+
+div.figure-about .image-caption {
+	margin-top: 5px;
+	font-style: italic;
+	font-size: 90%;
+	text-align: center;
+}
+
 div.video-wrapper {
     position: relative;
     padding-bottom: 56.25%; /* 16:9 */
