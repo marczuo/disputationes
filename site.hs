@@ -1,6 +1,7 @@
 --------------------------------------------------------------------------------
 {-# LANGUAGE OverloadedStrings #-}
 import           Data.Monoid (mappend)
+import           Hakyll.Web.Sass
 import           Hakyll
 import           Data.List
 import           Control.Arrow
@@ -22,9 +23,14 @@ main = hakyllWith siteConfig $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "css/*" $ do
+    match "css/*.css" $ do
         route   idRoute
         compile compressCssCompiler
+
+    match "css/*.sass" $ do
+        route   $ setExtension "css"
+        compile $ sassCompiler
+            >>= compressCss'
 
     match "favicon.png" $ do
         route   idRoute
@@ -131,5 +137,9 @@ getPageTags identifier = buildTags (fromList [identifier]) (fromCapture "tags/*.
 
 renderTagListNoCount :: Tags -> Compiler (String)
 renderTagListNoCount = renderTags makeLink (intercalate ", ")
-  where makeLink tag url _ _ _ = renderHtml $
+  where makeLink tag url _ _ _ = renderHtml $ 
                                    H.a ! A.href (toValue url) $ toHtml tag
+
+compressCss' :: Item String -> Compiler (Item String)
+compressCss' item = let cssBody = itemBody item
+                     in makeItem $ compressCss cssBody
