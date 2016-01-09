@@ -26,6 +26,10 @@ main = hakyllWith siteConfig $ do
         route   idRoute
         compile compressCssCompiler
 
+    match "favicon.png" $ do
+        route   idRoute
+        compile copyFileCompiler
+
     match "about.markdown" $ do 
         let aboutCtx =
                 constField "about" ""                        `mappend`
