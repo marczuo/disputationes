@@ -1,5 +1,11 @@
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic,700italic,100|Alegreya:400,700&subset=latin,latin-ext)
 
+@mixin selection
+  ::-moz-selection
+    @content
+  ::selection
+    @content
+
 body
   font-size: 20px
   margin: 0px auto 0px auto
@@ -115,7 +121,7 @@ div
     font-color: #93a1a1
     font-style: italic
 
-\::selection, ::-moz-selection
+@include selection
   color: #fdf6e3
   background-color: #6c71c4
 
