@@ -1,3 +1,4 @@
+/* Import font from Google */
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic,700italic,100|Alegreya:400,700&subset=latin,latin-ext)
 
 @mixin selection
@@ -6,75 +7,112 @@
   ::selection
     @content
 
+/* Fonts */
+$serif-font:      'Alegreya','Tinos','Times New Roman',serif
+$sans-serif-font: 'Alegreya Sans','Lato',sans-serif
+
+/* Colors */
+$base03:    #002b36
+$base02:    #073642
+$base01:    #586e75
+$base00:    #657b83
+$base0:     #839496
+$base1:     #93a1a1
+$base2:     #eee8d5
+$base3:     #fdf6e3
+$yellow:    #b58900
+$orange:    #cb4b16
+$red:       #dc322f
+$magenta:   #d33682
+$violet:    #6c71c4
+$blue:      #268bd2
+$cyan:      #2aa198
+$green:     #859900
+
+$background-color:      $base3
+$primary-color:         $base00
+$secondary-color:       $base1
+$highlight-color:       $base01
+$background-highlight:  $base2
+$separator-color:       $base01
+
+html *
+  color-profile: sRGB;
+  rendering-intent: auto;
+
+@include selection
+  color: $background-color
+  background-color: $violet
+
 body
   font-size: 20px
   margin: 0px auto 0px auto
   max-width: 700px
   padding: 0 40px
-  font-family: 'Alegreya Sans', 'Lato', sans-serif
-  background-color: #fdf6e3
-  color: #657b83
+  font-family: $sans-serif-font
+  background-color: $background-color
+  color: $primary-color
 
   a
     text-decoration: none
-    color: #268bd2
+    color: $blue
     &:visited
-      color: #6c71c4
+      color: $violet
     &:hover
-      color: #d33682
+      color: $magenta
 
-div#header
-  border-bottom: 1px solid #586e75
-  margin-bottom: 20px
-  padding: 12px 0px 12px 0px
+  #header
+    border-bottom: 1px solid $separator-color
+    margin-bottom: 20px
+    padding: 12px 0px 12px 0px
 
-  #logo a
-    color: #cb4b16
-    float: left
-    font-size: 28px
-    text-decoration: none
-    font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif
-    font-weight: 700
-
-  #navigation
-    text-align: right
-    margin-top: 5px
-    font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif
-    font-weight: 400
-    height: 28px
-    a
-      font-size: 20px
+    #logo a
+      color: $orange
+      float: left
+      font-size: 28px
       text-decoration: none
-      text-transform: uppercase
-      font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif
-      font-weight: 400
-      color: #586e75
-      display: inline-block
-      padding: 0 10px
-      &.current-page
-        font-weight: 700
-        font-weight: bold
-        color: #cb4b16
-      &:hover
-        background: #eee8d5
+      font-family: $serif-font
+      font-weight: 700
 
-div#footer
-  border-top: solid 1px #586e75
-  color: #93a1a1
-  font-size: 80%
-  margin: 20px 0 30px 0
-  padding: 10px 10px 0 0
-  text-align: right
-  font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif
-  font-weight: 200
-  a
-    color: #657b83
-    &:hover
-      color: #d33682
+    #navigation
+      text-align: right
+      margin-top: 5px
+      font-family: $serif-font
+      font-weight: 400
+      height: 28px
+      a
+        font-size: 20px
+        text-decoration: none
+        text-transform: uppercase
+        font-family: $serif-font
+        font-weight: 400
+        color: $highlight-color
+        display: inline-block
+        padding: 0 10px
+        &.current-page
+          font-weight: 700
+          font-weight: bold
+          color: $orange
+        &:hover
+          background: $background-highlight
+
+  #footer
+    border-top: solid 1px #586e75
+    color: #93a1a1
+    font-size: 80%
+    margin: 20px 0 30px 0
+    padding: 10px 10px 0 0
+    text-align: right
+    font-family: $serif-font
+    font-weight: 200
+    a
+      color: $primary-color
+      &:hover
+        color: $magenta
 
 h1, h2, h3
-  font-family: 'Alegreya', 'Tinos', 'Times New Roman', serif
-  color: #cb4b16
+  font-family: $serif-font
+  color: $orange
 
 h1, h2
   margin-bottom: -2px
@@ -93,100 +131,54 @@ h3
 p.signature
   text-align: right
   font-size: 90%
-  color: #657b83
+  color: $primary-color
   font-style: italic
 
-div
-  &.info
-    color: #657b83
-    font-size: 80%
-    font-style: italic
-    a
-      color: #657b83
-      &:hover
-        color: #d33682
-  &#homepage-quote
-    display: block
-    width: 180px
-    float: right
-    margin-left: 20px
-    font-size: 80%
-    font-style: italic
-    a
-      color: #93a1a1
-      &:visited, &:hover
-        color: #93a1a1
-  &#comment
-    font-size: 80%
-    font-color: #93a1a1
-    font-style: italic
+.info
+  color: $primary-color
+  font-size: 80%
+  font-style: italic
+  a
+    color: $primary-color
+    &:hover
+      color: $magenta
 
-@include selection
-  color: #fdf6e3
-  background-color: #6c71c4
+#homepage-quote
+  display: block
+  width: 180px
+  float: right
+  margin-left: 20px
+  font-size: 80%
+  font-style: italic
+  a, a:visited, a:hover
+    color: $secondary-color
+
+#comment
+  font-size: 80%
+  font-color: $secondary-color
+  font-style: italic
 
 img#header-image
   width: 700px
 
-div
-  &.figure-about
-    float: right
-    padding: 20px 0px 0px 20px
-    .image-caption
-      margin-top: 5px
-      font-style: italic
-      font-size: 90%
-      text-align: center
-  &.video-wrapper
-    position: relative
-    padding-bottom: 56.25%
-    padding-top: 25px
-    margin: 10px 0
-    height: 0
-    iframe
-      position: absolute
-      top: 0
-      left: 0
-      width: 100%
-      height: 100%
+.figure-about
+  float: right
+  padding: 20px 0px 0px 20px
+  .image-caption
+    margin-top: 5px
+    font-style: italic
+    font-size: 90%
+    text-align: center
 
-@media only screen and (max-aspect-ratio: 11 / 10), only screen and (max-device-width: 700px)
-  body
-    max-width: none
-    padding: 0 10px
-  img#header-image
+.video-wrapper
+  position: relative
+  padding-bottom: 56.25%
+  padding-top: 25px
+  margin: 10px 0
+  height: 0
+  iframe
+    position: absolute
+    top: 0
+    left: 0
     width: 100%
-  div
-    &#header #navigation
-      height: auto
-      text-align: center
-    &#homepage-quote
-      display: inline
-      width: auto
-      text-align: center
-      margin-bottom: 25px
-    &#header #logo a
-      width: 100%
-      float: none
-      display: inline-block
-      padding-bottom: 5px
-      text-align: center
-      font-size: 180%
-    &#footer
-      font-size: 60%
-      text-align: center
-
-@media only screen and (max-device-width: 700px)
-  body
-    padding: 0 30px
-    font-size: 300%
-  div
-    &#header
-      #logo a
-        font-size: 150%
-      #navigation a
-        font-size: 100%
-    &#comment
-      font-size: 50%
-    &#footer
-      font-size: 30%
+    height: 100%
