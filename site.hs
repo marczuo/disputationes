@@ -30,7 +30,7 @@ main = hakyllWith siteConfig $ do
     match "css/*.sass" $ do
         route   $ setExtension "css"
         compile $ sassCompiler
-            >>= compressCss'
+            >>= compressCssBindable
 
     match "favicon.png" $ do
         route   idRoute
@@ -140,6 +140,6 @@ renderTagListNoCount = renderTags makeLink (intercalate ", ")
   where makeLink tag url _ _ _ = renderHtml $ 
                                    H.a ! A.href (toValue url) $ toHtml tag
 
-compressCss' :: Item String -> Compiler (Item String)
-compressCss' item = let cssBody = itemBody item
-                     in makeItem $ compressCss cssBody
+compressCssBindable :: Item String -> Compiler (Item String)
+compressCssBindable item = let cssBody = itemBody item
+                            in makeItem $ compressCss cssBody
