@@ -6,15 +6,14 @@ title: About
 
 _"Nam efficit hoc philosophia: medetur animis, inanes sollicitudines detrahit, cupiditatibus liberat, pellit timores."_
 
-This is the personal website of Marc Zuo. It may or may not have anything to do with philosophy,
-poetry, mathematics or any number of languages dead or alive, but you may want to look somewhere
-else if you are looking for [theological disputations](https://en.wikipedia.org/wiki/Disputation).
+This is the personal website of Marc Zuo. It may or may not have anything to do with philosophy, poetry, mathematics or
+any number of languages dead or alive, but you may want to look somewhere else if you are looking for [theological
+disputations](https://en.wikipedia.org/wiki/Disputation).
 
 The name of the website comes from Cicero's philosophical treatise, [_Tusculanae
-Disputationes_](https://en.wikipedia.org/wiki/Tusculanae_Disputationes), Lutetia being the ancient
-name of Paris (_Lutèce_ in French), the city I live in. Despite the name, this site is not intended
-to host rigorous philosophical essays, but rather anything pertaining to one or more of my
-interests.
+Disputationes_](https://en.wikipedia.org/wiki/Tusculanae_Disputationes), from which a quote is displayed above. Despite
+the name, this site is not intended to host rigorous philosophical essays, but rather anything pertaining to one or more
+of my interests.
 
 ##Other Places to Find Me
 
