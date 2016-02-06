@@ -4,6 +4,9 @@ title: About
 
 <div class="figure-about"><img src="../images/me.jpg" width="280px" /><div class="image-caption">Fig. 1: Me.</div></div>
 
+_"Nam efficit hoc philosophia: medetur animis, inanes sollicitudines detrahit, cupiditatibus liberat, pellit timores."_
+(Cicero, Tusculanae Disputationes)
+
 This is the personal website of Marc Zuo. It may or may not have anything to do with philosophy,
 poetry, mathematics or any number of languages dead or alive, but you may want to look somewhere
 else if you are looking for [theological disputations](https://en.wikipedia.org/wiki/Disputation).
