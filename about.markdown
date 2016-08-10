@@ -2,8 +2,6 @@
 title: About
 ---
 
-<div class="figure-about"><img src="../images/me.jpg" width="280px" /><div class="image-caption">Fig. 1: Me.</div></div>
-
 _"Nam efficit hoc philosophia: medetur animis, inanes sollicitudines detrahit, cupiditatibus liberat, pellit timores."_
 
 This is the personal website of Marc Zuo. It may or may not have anything to do with philosophy, poetry, mathematics or
