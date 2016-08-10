@@ -1,5 +1,3 @@
-hakyll_home_dir = $$(cd ..; pwd)
-
 all: preview
 
 clean: site
@@ -15,20 +13,21 @@ site: site.hs
 
 deploy: build
 	@echo "Deploying site....."
-	git add -A
-	git diff-index --quiet HEAD || git commit -m "Updating site"
-	rsync -avhW --delete $(hakyll_home_dir)/disputationes/_site/* $(hakyll_home_dir)/marczuo.github.io
-	cd $(hakyll_home_dir)/marczuo.github.io
+	rsync -avhW --delete ./_site/* ../marczuo.github.io
+	cd ../marczuo.github.io
 	git add -A
 	git diff-index --quiet HEAD || git commit -m "Updating site"
 
-push: deploy
+commit:
+	git add -A
+	git diff-index --quiet HEAD || git commit -m "Updating site"
+
+push: deploy commit
 	@echo "Pushing to Github server....."
 	git push origin master
-	cd $(hakyll_home_dir)/marczuo.github.io
+	cd ../marczuo.github.io
 	git push origin master
 
 preview: build
-	@echo "Hakyll home directory is $(hakyll_home_dir)"
 	@echo "Copying site to http server directory..."
-	rsync -ahW --delete $(hakyll_home_dir)/disputationes/_site/* /srv/http
+	rsync -ahW --delete ./_site/* /srv/http
