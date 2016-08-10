@@ -14,9 +14,10 @@ site: site.hs
 deploy: build
 	@echo "Deploying site....."
 	rsync -avhW --delete ./_site/* ../marczuo.github.io
-	GIT_DIR=../marczuo.github.io
-	git add -A
-	git diff-index --quiet HEAD || git commit -m "Updating site"
+	export GIT_DIR=../marczuo.github.io/.git ; export GIT_WORK_TREE=../marczuo.github.io ; \
+		git add -A ; \
+		git diff-index --quiet HEAD ||\
+		git commit -m "Updating site"
 
 commit:
 	git add -A
