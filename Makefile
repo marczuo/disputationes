@@ -15,7 +15,7 @@ deploy: build
 	@echo "Deploying site....."
 	git add -A
 	git diff-index --quiet HEAD || git commit -m "Updating site"
-	rsync -avhW ./_site/* ../marczuo.github.io
+	rsync -avhW --delete ./_site/* ../marczuo.github.io
 	cd ../marczuo.github.io
 	git add -A
 	git diff-index --quiet HEAD || git commit -m "Updating site"
@@ -28,4 +28,4 @@ push: deploy
 
 preview: build
 	@echo "Copying site to http server directory..."
-	rsync -ahW ./_site/* /srv/http
+	rsync -ahW --delete ./_site/* /srv/http
