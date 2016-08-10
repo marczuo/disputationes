@@ -7,6 +7,7 @@ executable site
   main-is:          site.hs
   build-depends:    base == 4.*
                   , hakyll == 4.7.*
+                  , hakyll-sass == 0.2.*
                   , blaze-html >= 0.4 && < 0.6
                   , blaze-markup
   ghc-options:      -threaded
