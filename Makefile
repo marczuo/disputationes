@@ -26,8 +26,8 @@ commit:
 push: deploy commit
 	@echo "Pushing to Github server....."
 	git push origin master
-	cd ../marczuo.github.io
-	git push origin master
+	export GIT_DIR=../marczuo.github.io/.git ; export GIT_WORK_TREE=../marczuo.github.io ; \
+		git push origin master
 
 preview: build
 	@echo "Copying site to http server directory..."
