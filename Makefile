@@ -1,4 +1,4 @@
-hakyll_home_dir = `cd ..; pwd`
+hakyll_home_dir = $(cd ..; pwd)
 
 all: preview
 
