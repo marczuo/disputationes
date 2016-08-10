@@ -13,7 +13,7 @@ import qualified Text.Blaze.Html5.Attributes     as A
 
 --------------------------------------------------------------------------------
 siteConfig :: Configuration
-siteConfig = defaultConfiguration { deployCommand = "bash deploy.sh" }
+siteConfig = defaultConfiguration { deployCommand = "make deploy push" }
 
 main :: IO ()
 main = hakyllWith siteConfig $ do
