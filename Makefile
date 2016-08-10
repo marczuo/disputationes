@@ -16,8 +16,7 @@ deploy: build
 	git add -A
 	git diff-index --quiet HEAD || git commit -m "Updating site"
 	rsync -avhW --delete ./_site/* ../marczuo.github.io
-	cd ..
-	cd marczuo.github.io
+	cd "../marczuo.github.io"
 	git add -A
 	git diff-index --quiet HEAD || git commit -m "Updating site"
 
