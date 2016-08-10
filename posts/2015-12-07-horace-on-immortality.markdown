@@ -1,5 +1,5 @@
 ---
-title: Carmen Cotidianum: Horace on Immortality
+title: "Carmen Cotidianum: Horace on Immortality"
 author: Marc Zuo
 headimage: ../images/2015-12-07-horace-on-immortality.jpg
 headimagetitle: A flying swan

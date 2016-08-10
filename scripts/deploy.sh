@@ -6,5 +6,4 @@ rsync -avhW $HOME/Development/Hakyll/disputationes/_site/* $HOME/Development/Hak
 cd $HOME/Development/Hakyll/marczuo.github.io
 git add -A
 git commit -m "Updating site"
-git push origin master
-echo "All done!"
+echo "All done! Don't forget to run\n\tgit push origin master\nwhen you wish to push to live!"

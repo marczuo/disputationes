@@ -1,5 +1,5 @@
 ---
-title: The Trumpiad: A Modern Epicomedy, Book I
+title: "The Trumpiad: A Modern Epicomedy, Book I"
 author: Marc Zuo
 tags: politics, poetry, united states
 ---

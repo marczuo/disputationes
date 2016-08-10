@@ -1,5 +1,5 @@
 ---
-title: Carmen Cotidianum: Farewell to the City of Lyon
+title: "Carmen Cotidianum: Farewell to the City of Lyon"
 author: Marc Zuo
 headimage: ../images/2015-12-11-farewell-to-the-city-of-lyon.jpg
 headimagetitle: View of Lyon from Fourvière
