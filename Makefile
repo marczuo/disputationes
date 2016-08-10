@@ -1,4 +1,4 @@
-hakyll_home_dir = $(cd ..; pwd)
+hakyll_home_dir = $$(cd ..; pwd)
 
 all: preview
 
@@ -29,5 +29,6 @@ push: deploy
 	git push origin master
 
 preview: build
+	@echo "Hakyll home directory is $(hakyll_home_dir)"
 	@echo "Copying site to http server directory..."
 	rsync -ahW --delete $(hakyll_home_dir)/disputationes/_site/* /srv/http
