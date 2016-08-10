@@ -14,11 +14,11 @@ site: site.hs
 deploy: build
 	@echo "Deploying site....."
 	git add -A
-	git commit -m "Updating site"
+	git diff-index --quiet HEAD || git commit -m "Updating site"
 	rsync -avhW ./_site/* ../marczuo.github.io
 	cd ../marczuo.github.io
 	git add -A
-	git commit -m "Updating site"
+	git diff-index --quiet HEAD || git commit -m "Updating site"
 
 push: deploy
 	@echo "Pushing to Github server....."
