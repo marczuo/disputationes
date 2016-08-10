@@ -12,11 +12,8 @@ import qualified Text.Blaze.Html5                as H
 import qualified Text.Blaze.Html5.Attributes     as A
 
 --------------------------------------------------------------------------------
-siteConfig :: Configuration
-siteConfig = defaultConfiguration { deployCommand = "make deploy push" }
-
 main :: IO ()
-main = hakyllWith siteConfig $ do
+main = hakyll $ do
     tags <- buildTags "posts/*" $ fromCapture "tags/*.html"
 
     match "images/*" $ do
