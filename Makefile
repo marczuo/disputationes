@@ -1,4 +1,4 @@
-all: preview
+default: preview
 
 clean: site
 	@echo "Cleaning site....."
