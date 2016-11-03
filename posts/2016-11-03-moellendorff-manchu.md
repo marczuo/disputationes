@@ -4,12 +4,11 @@ author: Marc Zuo
 tags: manchu, language
 ---
 
-<style> .manchu { font-family: 'Abkai Xanyan', 'Abkai Xanyan VT', 'Abkai Xanyan
-XX', 'Abkai Xanyan SC', 'Abkai Buleku', 'Noto Sans Mongolian';
-font-weight: normal; display: inline-block; font-size: 2em; line-height: 2em;
-writing-mode: vertical-lr; -webkit-writing-mode: vertical-lr; -o-writing-mode:
-vertical-lr; -ms-writing-mode: tb-lr; writing-mode: tb-lr; vertical-align:
-text-top; border-right: 1px solid #000; }
+<style> .manchu { font-family: 'Abkai Xanyan', 'Noto Sans Mongolian'; font-weight:
+normal; display: inline-block; font-size: 2em; line-height: 2em; writing-mode:
+vertical-lr; -webkit-writing-mode: vertical-lr; -o-writing-mode: vertical-lr;
+-ms-writing-mode: tb-lr; writing-mode: tb-lr; vertical-align: text-top;
+border-right: 1px solid #000; }
 .glossary { display: inline-block; font-size: 80%; width: 50%; vertical-align:
 text-top; padding-left: 1em; }
 .smallcaps { font-variant: small-caps; } </style>
@@ -40,7 +39,7 @@ would it?
 <div class="manchu" style="height:640px;"> ᡩᠣᠨᠵᡳᠴᡳ ᠰᡳ ᡨᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᠮᠪᡳ ᠰᡝᠮᠪᡳ ᠈  
 ᡠᠮᡝᠰᡳ ᠰᠠᡳᠨ ᠈ ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ ᠰᡝᡵᡝᠩᡤᡝ ᠈ ᠮᡠᠰᡝᡳ ᡠᠵᡠᡳ  
 ᡠᠵᡠ ᠣᠶᠣᠩᡤᠣ ᠪᠠᡳᡨᠠ ᠈ ᡠᡨᡥᠠᡳ ᠨᡳᡴᠠᠰᠠᡳ ᠮᡝᠨᡳ ᠮᡝᠨᡳ ᠪᠠ  
-ᡴ ᡤᡳᠰᡠᠨ ᡴ ᠠᡩᠠᠯᡳ ᠈ ᠪᠠᡥᠠᠨᠠᡵᠠᡴᡡᠴᡳ ᠣᠮᠪᡳᠣ᠉ </div>
+ᡳ ᡤᡳᠰᡠᠨ ᡳ ᠠᡩᠠᠯᡳ ᠈ ᠪᠠᡥᠠᠨᠠᡵᠠᡴᡡᠴᡳ ᠣᠮᠪᡳᠣ ᠉ </div>
 
 <div class="glossary">*donjici*, Condit. tense (6) of *donjimbi* to hear:
 I hear, but I am not sure, whether it is so  
@@ -81,10 +80,10 @@ Chinese for over ten years, but I am still as far as ever from seeing my way in
 it. Then if I can't master Manju and learn to translate, I shall have broken
 down at both ends of the line.
 
-<div class="manchu" style="height:720px;">ᡳᠨᡠ ᠸᠠᡴᠠ ᠣᠴᡳ ᠠᡳ ᠈ ᠪᡳ ᠵᡠᠸᠠᠨ ᠠᠨᡳᠶᠠ ᡶᡠᠨᠴᡝᠮᡝ ᠨᡳᡴᠠᠨ  
+<div class="manchu" style="height:640px;">ᡳᠨᡠ ᠸᠠᡴᠠ ᠣᠴᡳ ᠠᡳ ᠈ ᠪᡳ ᠵᡠᠸᠠᠨ ᠠᠨᡳᠶᠠ ᡶᡠᠨᠴᡝᠮᡝ ᠨᡳᡴᠠᠨ  
 ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᡥᠠ ᠈ ᡨᡝᡨᡝᠯᡝ ᡠᠮᠠᡳ ᡩᡠᠪᡝ ᡩᠠ ᡨᡠᠴᡳᡵᠠᡴᡡ ᠈  
 ᠵᠠᡳ ᠠᡳᡴᠠᠪᠠᡩᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡥᡡᠯᠠᡵᠠᡴᡡ ᠈ ᡠᠪᠠᠯᡳᠶᠠᠮᠪᡠᡵᡝ   
-ᠪᡝ ᡨᠠᠴᡳᡵᠠᡴᡡ ᠣᠴᡳ ᠈ ᠵᡠᠸᡝ ᡩᡝ ᡤᡝᠮᡠ ᠰᠠᡵᡨᠠᠪᡠᡵᡝ ᡩᡝ ᡳᠰᡳᠨᠠᠮᠪᡳ</div>
+ᠪᡝ ᡨᠠᠴᡳᡵᠠᡴᡡ ᠣᠴᡳ ᠈ ᠵᡠᠸᡝ ᡩᡝ ᡤᡝᠮᡠ ᠰᠠᡵᡨᠠᠪᡠᡵᡝ ᡩᡝ ᡳᠰᡳᠨᠠᠮᠪᡳ ᠈</div>
 
 <div class="glossary">*inu* yes, indeed  
 *waka* not  
@@ -95,4 +94,26 @@ down at both ends of the line.
 *aniya* year  
 *funceme* Inf. (3) of *funcembi* to exceed, coordinate definite verb followed
 by *taciha*: I have exceeded and learned  
-*nikan* Chinese</div>
+*nikan* Chinese  
+*bithe* book  
+*taciha* Pret. (4) of *tacimbi* to learn : I have learned  
+*tetele* from *te* now and *tele* till ; up to the present, still  
+*umai* not at all  
+*dube* point, end, extreme  
+*da* beginning, *dube da* the very beginning  
+*tucirakū* Fut. (5) of *tucimbi* to appear, with *akū* not: it does not appear  
+*jai* second, further  
+*aikabade* if  
+*manju* Manchu  
+*bithe* book  
+*hūlarakū* Fut. (5) of *hūlambi* to read, to study, with *akū* not: shall
+not study  
+*ubaliyambure* Fut. partic. (5) of *ubaliyambumbi* to translate  
+*be* accusative affix  
+*tacirakū* Fut. (5) of *tacimbi* to learn with *akū* not  
+*oci* Cond. (6) of *ombi* to be  
+*juwe de* two, with postpos. in  
+*gemu* both, alike  
+*sartabure* Fut. (5) of *sartabumbi* to be delayed  
+*de* postpos. to  
+*isinambi* to arrive</div>
