@@ -4,9 +4,9 @@ author: Marc Zuo
 tags: manchu, language
 ---
 
-<style> .manchu { font-family: "Abkai Xanyan", "Abkai Xanyan VT", "Abkai Xanyan
-XX", "Abkai Xanyan SC", "Abkai Buleku", "Noto Sans Mongolian"; font-weight:
-normal; display: inline-block; font-size: 2em; line-height: 2em;
+<style> .manchu { font-family: 'Abkai Xanyan', 'Abkai Xanyan VT', 'Abkai Xanyan
+XX', 'Abkai Xanyan SC', 'Abkai Buleku', 'Noto Sans Mongolian';
+font-weight: normal; display: inline-block; font-size: 2em; line-height: 2em;
 writing-mode: vertical-lr; -webkit-writing-mode: vertical-lr; -o-writing-mode:
 vertical-lr; -ms-writing-mode: tb-lr; writing-mode: tb-lr; vertical-align:
 text-top; border-right: 1px solid #000; }
