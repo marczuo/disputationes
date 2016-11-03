@@ -1,5 +1,5 @@
 ---
-title: Möllendorff's Manchu Practice Text
+title: Möllendorff’s Manchu Practice Text
 author: Marc Zuo
 tags: manchu, language
 ---
@@ -12,6 +12,18 @@ writing-mode: tb-lr; vertical-align: text-top; border-right: 1px solid #000; }
 .glossary { display: inline-block; font-size: 80%; width: 50%; vertical-align:
 text-top; padding-left: 1em; }
 .smallcaps { font-variant: small-caps; } </style>
+
+The following text is from *A Manchu Grammar with Analysed Texts* by P. G. von
+Möllendorff. The description given there follows:
+
+>The text is taken from the “*Tanggū meyen*” (Hundred Chapters) a book of
+Manchu–Chinese dialogues, v. page 10 of my “Essay on Manchu Literature” in
+Journal of C. B. of R. A. S. vol. xxiv (1890). The Chinese version of these
+dialogues is familiar to every student of Chinese, as it forms the “Hundred
+Lessons” in the Tzū-êrh-chi of Sir Thomas Wade, of whose classical English
+translation I have availed myself. By comparing the Chinese of these dialogues
+the interesting fact will be noticed that certain peculiarities of Pekingese
+are Manchuisms foreign to ordinary “Mandarin”.
 
 Note: Make sure that you have a font that supports the Mongolian script, such
 as [Noto Sans Mongolian](https://www.google.com/get/noto/#sans-mong).
