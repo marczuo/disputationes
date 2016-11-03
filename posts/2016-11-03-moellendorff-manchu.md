@@ -39,7 +39,7 @@ would it?
 <div class="manchu" style="height:640px;"> ᡩᠣᠨᠵᡳᠴᡳ ᠰᡳ ᡨᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᠮᠪᡳ ᠰᡝᠮᠪᡳ ᠈  
 ᡠᠮᡝᠰᡳ ᠰᠠᡳᠨ ᠈ ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ ᠰᡝᡵᡝᠩᡤᡝ ᠈ ᠮᡠᠰᡝᡳ ᡠᠵᡠᡳ  
 ᡠᠵᡠ ᠣᠶᠣᠩᡤᠣ ᠪᠠᡳᡨᠠ ᠈ ᡠᡨᡥᠠᡳ ᠨᡳᡴᠠᠰᠠᡳ ᠮᡝᠨᡳ ᠮᡝᠨᡳ ᠪᠠ  
-ᡳ ᡤᡳᠰᡠᠨ ᡳ ᠠᡩᠠᠯᡳ ᠈ ᠪᠠᡥᠠᠨᠠᡵᠠᡴᡡᠴᡳ ᠣᠮᠪᡳᠣ ᠉ </div>
+ ᡳ ᡤᡳᠰᡠᠨ  ᡳ ᠠᡩᠠᠯᡳ ᠈ ᠪᠠᡥᠠᠨᠠᡵᠠᡴᡡᠴᡳ ᠣᠮᠪᡳᠣ ᠉ </div>
 
 <div class="glossary">*donjici*, Condit. tense (6) of *donjimbi* to hear:
 I hear, but I am not sure, whether it is so  
