@@ -80,7 +80,7 @@ Chinese for over ten years, but I am still as far as ever from seeing my way in
 it. Then if I can't master Manju and learn to translate, I shall have broken
 down at both ends of the line.
 
-<div class="manchu" style="height:640px;">ᡳᠨᡠ ᠸᠠᡴᠠ ᠣᠴᡳ ᠠᡳ ᠈ ᠪᡳ ᠵᡠᠸᠠᠨ ᠠᠨᡳᠶᠠ ᡶᡠᠨᠴᡝᠮᡝ ᠨᡳᡴᠠᠨ  
+<div class="manchu" style="height:640px;">ᡳᠨᡠ ᠸᠠᡴᠠ ᠣᠴᡳ ᠠᡳ ᠈ ᠪᡳ ᠵᡠᠸᠠᠨ ᠠᠨ᠌ᡳᠶᠠ ᡶᡠᠨᠴᡝᠮᡝ ᠨᡳᡴᠠᠨ  
 ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᡥᠠ ᠈ ᡨᡝᡨᡝᠯᡝ ᡠᠮᠠᡳ ᡩᡠᠪᡝ ᡩᠠ ᡨᡠᠴᡳᡵᠠᡴᡡ ᠈  
 ᠵᠠᡳ ᠠᡳᡴᠠᠪᠠᡩᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡥᡡᠯᠠᡵᠠᡴᡡ ᠈ ᡠᠪᠠᠯᡳᠶᠠᠮᠪᡠᡵᡝ   
 ᠪᡝ ᡨᠠᠴᡳᡵᠠᡴᡡ ᠣᠴᡳ ᠈ ᠵᡠᠸᡝ ᡩᡝ ᡤᡝᠮᡠ ᠰᠠᡵᡨᠠᠪᡠᡵᡝ ᡩᡝ ᡳᠰᡳᠨᠠᠮᠪᡳ ᠈</div>
