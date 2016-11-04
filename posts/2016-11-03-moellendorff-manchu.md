@@ -83,7 +83,7 @@ down at both ends of the line.
 <div class="manchu" style="height:640px;">ᡳᠨᡠ ᠸᠠᡴᠠ ᠣᠴᡳ ᠠᡳ ᠈ ᠪᡳ ᠵᡠᠸᠠᠨ ᠠᠨ᠌ᡳᠶᠠ ᡶᡠᠨᠴᡝᠮᡝ ᠨᡳᡴᠠᠨ  
 ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᡥᠠ ᠈ ᡨᡝᡨᡝᠯᡝ ᡠᠮᠠᡳ ᡩᡠᠪᡝ ᡩᠠ ᡨᡠᠴᡳᡵᠠᡴᡡ ᠈  
 ᠵᠠᡳ ᠠᡳᡴᠠᠪᠠᡩᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡥᡡᠯᠠᡵᠠᡴᡡ ᠈ ᡠᠪᠠᠯᡳᠶᠠᠮᠪᡠᡵᡝ   
-ᠪᡝ ᡨᠠᠴᡳᡵᠠᡴᡡ ᠣᠴᡳ ᠈ ᠵᡠᠸᡝ ᡩᡝ ᡤᡝᠮᡠ ᠰᠠᡵᡨᠠᠪᡠᡵᡝ ᡩᡝ ᡳᠰᡳᠨᠠᠮᠪᡳ ᠈</div>
+ᠪᡝ ᡨᠠᠴᡳᡵᠠᡴᡡ ᠣᠴᡳ ᠈ ᠵᡠᠸᡝ ᡩᡝ ᡤᡝᠮᡠ ᠰᠠᡵᡨᠠᠪᡠᡵᡝ ᡩᡝ ᡳᠰᡳᠨᠠᠮᠪᡳ</div>
 
 <div class="glossary">*inu* yes, indeed  
 *waka* not  
@@ -117,3 +117,31 @@ not study
 *sartabure* Fut. (5) of *sartabumbi* to be delayed  
 *de* postpos. to  
 *isinambi* to arrive</div>
+
+##Page 17
+
+So I am come to-day, sir, in the first place, to pay my respects to you, and,
+in the next, to ask a favour of you. I find it not so easy to open the subject,
+however.
+
+<span class="smallcaps">Senior.</span> What's your difficulty? pray say what
+you have got to say. If it's anything that I can do for you, do you suppose
+that, with the relations existing between us, I shall try to back out?
+
+##Page 18
+
+<span class="smallcaps">Junior.</span> What I have to ask, then, is this: that
+you will so far take an interest in me as to put yourself to a little trouble
+on my account; I will tell you how. Find time, if you can, to compose a few
+phrases in Manchu for me to study, and if I manage to succeed at all, I shall
+regard it entirely as your work.
+
+##Page 19
+
+Sir, I shall never forget your kindness, and shall not fail to repay it
+handsomely.
+
+<span class="smallcaps">Senior.</span> What are you talking about? you are one
+of us, are you not? My only fear would have been that you were not anxious to
+learn; but, since you are willing, I shall be only too glad to contribute to
+your success.
