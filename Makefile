@@ -4,7 +4,7 @@ clean: site
 	@echo "Cleaning site....."
 	./site clean
 
-cleanall: clean
+clean-all: clean
 	@echo "Purging binary files..."
 	rm -f site site.o site.hi
 
