@@ -4,12 +4,16 @@ clean: site
 	@echo "Cleaning site....."
 	./site clean
 
+cleanall: clean
+	@echo "Purging binary files..."
+	rm -f site site.o site.hi
+
 build: site
 	@echo "Building site....."
 	./site build
 
 site: site.hs
-	#ghc --make -threaded site.hs
+	stack ghc -- --make -threaded site.hs
 
 deploy: build
 	@echo "Deploying site....."
