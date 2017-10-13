@@ -9,7 +9,7 @@ build: site
 	./site build
 
 site: site.hs
-	ghc --make -threaded site.hs
+	#ghc --make -threaded site.hs
 
 deploy: build
 	@echo "Deploying site....."

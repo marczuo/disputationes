@@ -1,0 +1,13 @@
+Configuring pandoc-types-1.17.0.5...
+Building pandoc-types-1.17.0.5...
+Preprocessing library pandoc-types-1.17.0.5...
+[1 of 7] Compiling Text.Pandoc.Generic ( Text/Pandoc/Generic.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Pandoc/Generic.o )
+[2 of 7] Compiling Paths_pandoc_types ( .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/autogen/Paths_pandoc_types.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Paths_pandoc_types.o )
+[3 of 7] Compiling Text.Pandoc.Definition ( Text/Pandoc/Definition.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Pandoc/Definition.o )
+[4 of 7] Compiling Text.Pandoc.Builder ( Text/Pandoc/Builder.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Pandoc/Builder.o )
+[5 of 7] Compiling Text.Pandoc.Arbitrary ( Text/Pandoc/Arbitrary.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Pandoc/Arbitrary.o )
+[6 of 7] Compiling Text.Pandoc.Walk ( Text/Pandoc/Walk.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Pandoc/Walk.o )
+[7 of 7] Compiling Text.Pandoc.JSON ( Text/Pandoc/JSON.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Pandoc/JSON.o )
+Installing library in
+/home/marczuo/.stack/snapshots/x86_64-linux-nopie/lts-9.4/8.0.2/lib/x86_64-linux-ghc-8.0.2/pandoc-types-1.17.0.5-BCBoAFSglFt7YJw3duHnTD
+Registering pandoc-types-1.17.0.5...

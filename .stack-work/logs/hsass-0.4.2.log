@@ -1,0 +1,17 @@
+Configuring hsass-0.4.2...
+Building hsass-0.4.2...
+Preprocessing library hsass-0.4.2...
+[ 1 of 11] Compiling Text.Sass.Values ( Text/Sass/Values.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Values.o )
+[ 2 of 11] Compiling Text.Sass.Utils  ( Text/Sass/Utils.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Utils.o )
+[ 3 of 11] Compiling Text.Sass.Values.Internal ( Text/Sass/Values/Internal.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Values/Internal.o )
+[ 4 of 11] Compiling Text.Sass.Values.Utils ( Text/Sass/Values/Utils.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Values/Utils.o )
+[ 5 of 11] Compiling Text.Sass.Functions ( Text/Sass/Functions.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Functions.o )
+[ 6 of 11] Compiling Text.Sass.Functions.Internal ( Text/Sass/Functions/Internal.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Functions/Internal.o )
+[ 7 of 11] Compiling Text.Sass.Options ( Text/Sass/Options.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Options.o )
+[ 8 of 11] Compiling Text.Sass.Options.Internal ( Text/Sass/Options/Internal.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Options/Internal.o )
+[ 9 of 11] Compiling Text.Sass.Internal ( Text/Sass/Internal.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Internal.o )
+[10 of 11] Compiling Text.Sass.Compilation ( Text/Sass/Compilation.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass/Compilation.o )
+[11 of 11] Compiling Text.Sass        ( Text/Sass.hs, .stack-work/dist/x86_64-linux-nopie/Cabal-1.24.2.0/build/Text/Sass.o )
+Installing library in
+/home/marczuo/Development/Hakyll/disputationes/.stack-work/install/x86_64-linux-nopie/lts-9.4/8.0.2/lib/x86_64-linux-ghc-8.0.2/hsass-0.4.2-BJrGEl8nWR92j2vrC5KSCQ
+Registering hsass-0.4.2...
