@@ -6,8 +6,8 @@ cabal-version:      >= 1.20
 executable site
   main-is:          site.hs
   build-depends:    base == 4.*
-                  , hakyll == 4.9.*
-                  , blaze-html == 0.9.*
+                  , hakyll == 4.*
+                  , blaze-html
                   , hakyll-sass
                   , blaze-markup
   ghc-options:      -threaded
