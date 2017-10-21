@@ -1,6 +1,7 @@
 .DEFAULT_GOAL := build
 GHC=stack ghc --
 
+
 .PHONY: clean cleanall build commit push deploy
 
 clean: site
@@ -15,7 +16,7 @@ site: site.hs
 	$(GHC) --make -threaded site.hs
 
 build: _site 
-_site: site css drafts templates posts
+_site: site css drafts templates posts $(wildcard *.markdown *.md *.html)
 	@echo "Building site....."
 	./site build
 commit:
