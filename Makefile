@@ -1,17 +1,21 @@
-default: deploy
+.DEFAULT_GOAL := build
+GHC=stack ghc --
+
+.PHONY: clean cleanall build commit push deploy
 
 clean: site
 	@echo "Cleaning site....."
 	./site clean
 
-clean-all: clean
+cleanall: clean
 	@echo "Purging binary files..."
 	rm -f site site.o site.hi
 
 site: site.hs
-	stack ghc -- --make -threaded site.hs
+	$(GHC) --make -threaded site.hs
 
-build: site
+build: _site 
+_site: site css drafts templates posts
 	@echo "Building site....."
 	./site build
 commit:
@@ -23,7 +27,7 @@ push: deploy commit
 	git push origin master
 	git -C ../marczuo.github.io push origin master
 
-deploy: build
+deploy: _site
 	@echo "Deploying site....."
 	rsync -ahW --delete ./_site/* ../marczuo.github.io
 	git -C ../marczuo.github.io add -A
