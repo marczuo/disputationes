@@ -1,4 +1,4 @@
-Lutetianae Disputationes
-========================
+Eborancenses Disputationes
+==========================
 
-This repository contains the source code of my personal website, Lutetianae Disputationes.
+This repository contains the source code of my personal website, Eboracenses Disputationes.
