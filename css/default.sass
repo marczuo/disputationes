@@ -36,107 +36,112 @@ $highlight-color:       $base02
 $background-highlight:  $base2
 $separator-color:       $base02
 
+/* Measurements */
+$viewport-width:        36em
+$body-font-size:        125%
+$logo-font-size:        1.4em
+
 html *
-  color-profile: sRGB;
-  rendering-intent: auto;
+  color-profile: sRGB
+  rendering-intent: auto
 
 @include selection
   color: $background-color
   background-color: $violet
 
 body
-  font-size: 20px
+  font-size: $body-font-size
   margin: 0px auto 0px auto
-  max-width: 700px
-  padding: 0 40px
+  max-width: $viewport-width
+  padding: 0 2em
   font-family: $sans-serif-font
   background-color: $background-color
   color: $primary-color
 
+a
+  text-decoration: none
+  color: $blue
+  &:visited
+    color: $violet
+  &:hover
+    color: $magenta
+
+#header
+  border-bottom: 1px solid $separator-color
+  margin-bottom: 1em
+  padding: 0.5em 0
+
+#logo a
+  color: $orange
+  float: left
+  font-size: $logo-font-size
+  text-decoration: none
+  font-family: $serif-font
+  font-weight: 700
+
+#navigation
+  text-align: right
+  margin-top: 0.3em
+  font-family: $serif-font
+  font-weight: 400
+  height: $logo-font-size
   a
+    font-size: 1em
     text-decoration: none
-    color: $blue
-    &:visited
-      color: $violet
+    text-transform: uppercase
+    font-family: $serif-font
+    font-weight: 400
+    color: $highlight-color
+    display: inline-block
+    padding: 0 0.5em
+    &.current-page
+      font-weight: 700
+      font-weight: bold
+      color: $orange 
+    &:hover
+      background: $background-highlight
+
+#footer
+  border-top: solid 1px #586e75
+  color: #93a1a1
+  font-size: 0.8em
+  margin: 1em 0 1.5em 0
+  padding: 0.5em 0.5em 0 0
+  text-align: right
+  font-family: $serif-font
+  font-weight: 200
+  a
+    color: $primary-color
     &:hover
       color: $magenta
-
-  #header
-    border-bottom: 1px solid $separator-color
-    margin-bottom: 20px
-    padding: 12px 0px 12px 0px
-
-    #logo a
-      color: $orange
-      float: left
-      font-size: 28px
-      text-decoration: none
-      font-family: $serif-font
-      font-weight: 700
-
-    #navigation
-      text-align: right
-      margin-top: 5px
-      font-family: $serif-font
-      font-weight: 400
-      height: 28px
-      a
-        font-size: 20px
-        text-decoration: none
-        text-transform: uppercase
-        font-family: $serif-font
-        font-weight: 400
-        color: $highlight-color
-        display: inline-block
-        padding: 0 10px
-        &.current-page
-          font-weight: 700
-          font-weight: bold
-          color: $orange
-        &:hover
-          background: $background-highlight
-
-  #footer
-    border-top: solid 1px #586e75
-    color: #93a1a1
-    font-size: 80%
-    margin: 20px 0 30px 0
-    padding: 10px 10px 0 0
-    text-align: right
-    font-family: $serif-font
-    font-weight: 200
-    a
-      color: $primary-color
-      &:hover
-        color: $magenta
 
 h1, h2, h3
   font-family: $serif-font
   color: $orange
 
 h1, h2
-  margin-bottom: -2px
+  margin-bottom: -0.1em
   font-weight: 700
 
 h1
-  font-size: 140%
+  font-size: 1.4em
 
 h2
-  font-size: 120%
+  font-size: 1.2em
 
 h3
-  font-size: 100%
+  font-size: 1em
   line-height: 0.5
 
 p.signature
   text-align: right
-  font-size: 90%
+  font-size: 0.9em
   color: $primary-color
   font-style: italic
 
 .info
   color: $primary-color
-  font-size: 80%
+  font-size: 0.8em
   font-style: italic
   a
     color: $primary-color
@@ -145,36 +150,37 @@ p.signature
 
 #homepage-quote
   display: block
-  width: 180px
+  width: 11em
   float: right
-  margin-left: 20px
-  font-size: 80%
+  margin-left: 1em
+  font-size: 0.8em
   font-style: italic
   a, a:visited, a:hover
     color: $secondary-color
 
 #comment
-  font-size: 80%
+  font-size: 0.8em
   font-color: $secondary-color
   font-style: italic
 
 img#header-image
-  width: 700px
+  width: $viewport-width
+  margin-top: 1em
 
 .figure-about
   float: right
-  padding: 20px 0px 0px 20px
+  padding: 1em 0 0 1em
   .image-caption
-    margin-top: 5px
+    margin-top: 0.25em
     font-style: italic
-    font-size: 90%
+    font-size: 0.9em
     text-align: center
 
 .video-wrapper
   position: relative
-  padding-bottom: 56.25%
-  padding-top: 25px
-  margin: 10px 0
+  padding-bottom: 0.5625em
+  padding-top: 1.25em
+  margin: 0.5em 0
   height: 0
   iframe
     position: absolute
