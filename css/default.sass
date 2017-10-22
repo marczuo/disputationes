@@ -1,12 +1,6 @@
 /* Import font from Google */
 @import url(https://fonts.googleapis.com/css?family=Alegreya+Sans:400,700,400italic,700italic,100|Alegreya:400,700&subset=latin,latin-ext)
 
-@mixin selection
-  ::-moz-selection
-    @content
-  ::selection
-    @content
-
 /* Fonts */
 $serif-font:      'Alegreya','Tinos','Times New Roman',serif
 $sans-serif-font: 'Alegreya Sans','Lato',sans-serif
@@ -40,6 +34,13 @@ $separator-color:       $base02
 $viewport-width:        36em
 $body-font-size:        125%
 $logo-font-size:        1.4em
+
+
+@mixin selection
+  ::-moz-selection
+    @content
+  ::selection
+    @content
 
 html *
   color-profile: sRGB

@@ -8,7 +8,11 @@ clean: site
 	@echo "Cleaning site....."
 	./site clean
 
-cleanall: clean
+cleanall:
+	@if [ -a site ] ; then \
+		echo "Cleaning site....." ; \
+		./site clean ; \
+	fi ;
 	@echo "Purging binary files..."
 	rm -f site site.o site.hi
 
