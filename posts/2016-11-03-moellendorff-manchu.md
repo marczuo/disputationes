@@ -8,7 +8,7 @@ tags: manchu, language
 normal; display: inline-block; font-size: 2em; line-height: 2em; writing-mode:
 vertical-lr; -webkit-writing-mode: vertical-lr; -o-writing-mode: vertical-lr;
 -ms-writing-mode: tb-lr; writing-mode: tb-lr; vertical-align: text-top;
-border-right: 1px solid #000; }
+border-right: 1px solid #000; height: 16em; }
 .glossary { display: inline-block; font-size: 80%; width: 50%; vertical-align:
 text-top; padding-left: 1em; }
 .smallcaps { font-variant: small-caps; } </style>
@@ -36,7 +36,7 @@ it is to us, in short, what the language spoken in his own part of the country
 is to a Chinese; so it would never do to be without a knowledge of Manchu,
 would it?
 
-<div class="manchu" style="height:640px;"> ᡩᠣᠨᠵᡳᠴᡳ ᠰᡳ ᡨᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᠮᠪᡳ ᠰᡝᠮᠪᡳ ᠈  
+<div class="manchu"> ᡩᠣᠨᠵᡳᠴᡳ ᠰᡳ ᡨᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᠮᠪᡳ ᠰᡝᠮᠪᡳ ᠈  
 ᡠᠮᡝᠰᡳ ᠰᠠᡳᠨ ᠈ ᠮᠠᠨᠵᡠ ᡤᡳᠰᡠᠨ ᠰᡝᡵᡝᠩᡤᡝ ᠈ ᠮᡠᠰᡝᡳ ᡠᠵᡠᡳ  
 ᡠᠵᡠ ᠣᠶᠣᠩᡤᠣ ᠪᠠᡳᡨᠠ ᠈ ᡠᡨᡥᠠᡳ ᠨᡳᡴᠠᠰᠠᡳ ᠮᡝᠨᡳ ᠮᡝᠨᡳ ᠪᠠ  
  ᡳ ᡤᡳᠰᡠᠨ  ᡳ ᠠᡩᠠᠯᡳ ᠈ ᠪᠠᡥᠠᠨᠠᡵᠠᡴᡡᠴᡳ ᠣᠮᠪᡳᠣ ᠉ </div>
@@ -80,7 +80,7 @@ Chinese for over ten years, but I am still as far as ever from seeing my way in
 it. Then if I can't master Manju and learn to translate, I shall have broken
 down at both ends of the line.
 
-<div class="manchu" style="height:640px;">ᡳᠨᡠ ᠸᠠᡴᠠ ᠣᠴᡳ ᠠᡳ ᠈ ᠪᡳ ᠵᡠᠸᠠᠨ ᠠᠨ᠌ᡳᠶᠠ ᡶᡠᠨᠴᡝᠮᡝ ᠨᡳᡴᠠᠨ  
+<div class="manchu">ᡳᠨᡠ ᠸᠠᡴᠠ ᠣᠴᡳ ᠠᡳ ᠈ ᠪᡳ ᠵᡠᠸᠠᠨ ᠠᠨ᠌ᡳᠶᠠ ᡶᡠᠨᠴᡝᠮᡝ ᠨᡳᡴᠠᠨ  
 ᠪᡳᡨ᠌ᡥᡝ ᡨᠠᠴᡳᡥᠠ ᠈ ᡨᡝᡨᡝᠯᡝ ᡠᠮᠠᡳ ᡩᡠᠪᡝ ᡩᠠ ᡨᡠᠴᡳᡵᠠᡴᡡ ᠈  
 ᠵᠠᡳ ᠠᡳᡴᠠᠪᠠᡩᡝ ᠮᠠᠨᠵᡠ ᠪᡳᡨ᠌ᡥᡝ ᡥᡡᠯᠠᡵᠠᡴᡡ ᠈ ᡠᠪᠠᠯᡳᠶᠠᠮᠪᡠᡵᡝ   
 ᠪᡝ ᡨᠠᠴᡳᡵᠠᡴᡡ ᠣᠴᡳ ᠈ ᠵᡠᠸᡝ ᡩᡝ ᡤᡝᠮᡠ ᠰᠠᡵᡨᠠᠪᡠᡵᡝ ᡩᡝ ᡳᠰᡳᠨᠠᠮᠪᡳ</div>
