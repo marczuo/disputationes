@@ -4,9 +4,10 @@ title: About
 
 _"Nam efficit hoc philosophia: medetur animis, inanes sollicitudines detrahit, cupiditatibus liberat, pellit timores."_
 
-This is the personal website of Marc Zuo. It may or may not have anything to do with philosophy, poetry, mathematics or
-any number of languages dead or alive, but you may want to look somewhere else if you are looking for [theological
-disputations](https://en.wikipedia.org/wiki/Disputation).
+Eboracenses Disputationes is the personal website of Marc Zuo, formerly known as Lutetianae
+Disputationes. It may or may not have anything to do with philosophy, poetry, mathematics or any
+number of languages dead or alive, but you may want to look somewhere else if you are looking for
+[theological disputations](https://en.wikipedia.org/wiki/Disputation).
 
 The name of the website comes from Cicero's philosophical treatise, [_Tusculanae
 Disputationes_](https://en.wikipedia.org/wiki/Tusculanae_Disputationes), from which a quote is displayed above. Despite

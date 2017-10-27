@@ -33,7 +33,7 @@ main = hakyll $ do
         route   idRoute
         compile copyFileCompiler
 
-    match "about.markdown" $ do 
+    match "about.md" $ do 
         let aboutCtx =
                 constField "about" ""                        `mappend`
                 defaultContext
