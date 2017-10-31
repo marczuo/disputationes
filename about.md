@@ -21,8 +21,8 @@ You may be interested in my photos on [Flickr](https://www.flickr.com/photos/zuo
 You may also be interested in the collection of my original Latin poetry, [Ineptiae
 Marci](http://ineptiae.tumblr.com).
 
-This site has a [gopher version](gopher://gopher.disputation.es). If you do not have a browser
+This site has a [gopher version](gopher://gopher.disputationes.net). If you do not have a browser
 equipped to use the gopher protocol, you may access the gopher site with a proxy, such as
-[Floodgap](http://gopher.floodgap.com/gopher/gw?a=gopher://gopher.disputation.es).
+[Floodgap](http://gopher.floodgap.com/gopher/gw?a=gopher://gopher.disputationes.net).
 
-[Contact me by email](mailto:marc@disputation.es) ([PGP key here](https://sks-keyservers.net/pks/lookup?op=get&search=0xCD712062CF2A5857)).
+[Contact me by email](mailto:marc@disputationes.net) ([PGP key here](https://sks-keyservers.net/pks/lookup?op=get&search=0xCD712062CF2A5857)).
