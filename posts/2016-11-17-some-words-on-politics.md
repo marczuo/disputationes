@@ -1,6 +1,7 @@
 ---
 title: Some Words on Politics
 author: Marc Zuo
+tags: politics, usa
 ---
 
 On the election of Donald J. Trump to the presidency of the United States more
