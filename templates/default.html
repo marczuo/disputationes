@@ -10,29 +10,29 @@
 		<link rel="icon" type="image/png" href="/favicon.png" />
     </head>
     <body>
-        <div id="header">
+        <header>
             <div id="logo">
                 <a href="/">Eboracenses Disputationes</a>
             </div>
-            <div id="navigation">
+            <nav>
                 <a href="/"$if(home)$ class="current-page"$endif$>Home</a>
 		<a href="/about.html"$if(about)$ class="current-page"$endif$>About</a>
 		<a href="/tags.html"$if(tagspage)$ class="current-page"$endif$>Tags</a>
 		<a href="/archive.html"$if(archive)$ class="current-page"$endif$>Archive</a>
-            </div>
-        </div>
+            </nav>
+        </header>
 
-        <div id="content">
+        <main>
 	    <h1>$title$</h1> 
             $body$
-        </div>
+        </main>
 
-        <div id="footer">
+        <footer>
             Built with
             <a href="http://jaspervdj.be/hakyll">Hakyll</a>
 	    using colors from <a href="http://ethanschoonover.com/solarized">Solarized</a><br />
             Copyright 2015 <a href="mailto:marc@disputation.es">Marc Zuo</a> ·
             <a href="https://github.com/marczuo/disputationes">View source code on Github</a>
-        </div>
+        </footer>
     </body>
 </html>

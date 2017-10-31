@@ -5,12 +5,12 @@ tags: manchu, language
 ---
 
 <style> .manchu { font-family: 'Abkai Xanyan', 'Noto Sans Mongolian'; font-weight:
-normal; display: inline-block; font-size: 2em; line-height: 2em; writing-mode:
+normal; display: inline-block; font-size: 1.8em; line-height: 1.8em; writing-mode:
 vertical-lr; -webkit-writing-mode: vertical-lr; -o-writing-mode: vertical-lr;
 -ms-writing-mode: tb-lr; writing-mode: tb-lr; vertical-align: text-top;
-border-right: 1px solid #000; height: 16em; }
+margin-left: -0.2em; height: 16em; }
 .glossary { display: inline-block; font-size: 80%; width: 50%; vertical-align:
-text-top; padding-left: 1em; }
+text-top; padding-left: 1em; border-left: 1px solid #000; }
 .smallcaps { font-variant: small-caps; } </style>
 
 The following text is from *A Manchu Grammar with Analysed Texts* by P. G. von
