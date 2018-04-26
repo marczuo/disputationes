@@ -76,9 +76,9 @@ act of manly bravery: in Horace's Ode 1.37, his famous account of the triumph
 over Antony and Cleopatra, the queen who was otherwise *fortunaque dulci ebria*
 ("drunk with the sweet wine of fortune") and plotting *dementis ruina* ("mad
 ruination") for Rome with her *contaminato [...] grege turpium morbo virorum*
-("vile throng sick with repulsive men"), who was a *fatale monstrum* ("fatal
-monstrosity"), was, as soon as she saw her defeat coming and decided to take
-her own life instead, elevated almost into a heroic figure: she did not
+("vile throng of men befouled with illness"), who was a *fatale monstrum*
+("fatal monstrosity"), was, as soon as she saw her defeat coming and decided to
+take her own life instead, elevated almost into a heroic figure: she did not
 *muliebriter expavit ensem* ("fear the sword like a woman") but was, in the
 end, a *non humilis mulier* ("no lowly woman") above the pettiness of Rome's
 *superbo triumpho* ("arrogant triumph"). Poor Augustus! We cannot help but
