@@ -106,7 +106,7 @@ unthinkable act and rehabilitated it as a symptom of an illness no different in
 kind, though perhaps in intensity, from sneezing when one has a cold. In
 Lacanian terms, what is lacking from our conception of suicide as opposed to
 the Tibetans, the Japanese and the ancient Romans is the Real of suicide; far
-from treating the even in all its proper traumatic intensity, the modern
+from treating the event in all its proper traumatic intensity, the modern
 person's relationship to suicide is much too domesticated, too familiar as to
 be divorced from the messy world of subjectivity of the Other but reduced to
 the shallowness of mechanical causality: your brain has some bad wirings; now
