@@ -1,5 +1,5 @@
 ---
-title: On Comets and Revolutions
+title: A Tale of Comets, Fantasy and Revolutions
 author: Marc Zuo
 tags: philosophy, theatre, politics
 ---
